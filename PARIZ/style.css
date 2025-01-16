@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Lobster&display=swap');
+
+
+body{background-image: url("images.jpg");
+    background-repeat: no repeat;
+    background-size: cover;
+    line-height: 1.5;
+    text-indent: 25px;
+}
+#content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    width: 90vw;
+}
+img{
+    width: 200px;
+}
+#ne{
+    max-width: 250px;
+}
+#logo{
+    font-style: italic;
+    font-size: 18pt;
+    text-align: right;
+}
+.ruta{
+    color: #ffffab;
+
+}
+h1,h2{
+    font-family: "lobster", serif;
+   
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+}
+h1{
+    text-shadow: #ffaa11 2px 2px;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li a:visited{
+    color: gray;
+    <style> display: inline-block;
+    width: 100px;
+    border: solid 5px gray
+    background color:</style>
+
+}
