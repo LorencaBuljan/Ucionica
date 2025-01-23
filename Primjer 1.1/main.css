@@ -1,0 +1,28 @@
+h1{
+    color: indigo;
+}
+p{
+    color: darkred;
+}
+.poslovica{
+    font-size: 14px;
+}
+span.poslovica{
+    font-size: 0.5em;
+}
+.istina{
+    font-weight: 200;
+}
+p, h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p strong{
+    color: darkgray;
+    font-size: 18px;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#jutro{
+    color: black;
+}
