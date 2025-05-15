@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt - Restoran Lora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>galerija</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="meni.html">Meni</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Adresa: Ulica 123, Split</p>
+            <p>Telefon: +385 21 123 456</p>
+            <p>Email: info@restoranlora.hr</p>
+
+            <form action="mailto:info@restoranlora.hr" method="post" enctype="text/plain">
+                <label for="ime">Ime:</label>
+                <input type="text" id="ime" name="ime" required><br>
+
+                <label for="poruka">Poruka:</label><br>
+                <textarea id="poruka" name="poruka" rows="4" required></textarea><br>
+
+                <input type="submit" value="Pošalji">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Restoran Lora</p>
+    </footer>
+</body>
+</html>

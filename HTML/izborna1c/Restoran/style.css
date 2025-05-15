@@ -1,0 +1,9 @@
+#podizbornik-1{
+    display:none;
+}
+.zvjezdicespan::before {
+    content: "★"; /* Unicode zvjezdica */
+    position: absolute;
+    font-size: 30px;
+    color: gold;
+}
